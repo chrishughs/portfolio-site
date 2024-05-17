@@ -1403,7 +1403,6 @@ figcaption {
   color: var(--medium-purple);
   justify-content: flex-start;
   align-items: center;
-  margin-top: 20px;
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
@@ -2335,7 +2334,7 @@ figcaption {
   }
 
   .wrapper.footer {
-    padding-top: 80px;
+    padding-top: 70px;
     text-align: center;
   }
 
@@ -2356,7 +2355,7 @@ figcaption {
 
   .wrapper.project-detail {
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   .wrapper.project-details-hero {
@@ -2434,7 +2433,7 @@ figcaption {
   .home-hero-image-wrapper {
     width: 100%;
     height: 470px;
-    margin-top: 50px;
+    margin-top: 55px;
   }
 
   .services-grid {
@@ -2453,7 +2452,7 @@ figcaption {
   }
 
   .case-study-heading-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 
   .project-slider-left-arrow {
@@ -2832,10 +2831,6 @@ figcaption {
   .wrapper.faq-heading {
     margin-bottom: 80px;
     padding-top: 85px;
-  }
-
-  .wrapper.footer {
-    padding-top: 60px;
   }
 
   .wrapper.home-hero {
