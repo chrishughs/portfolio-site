@@ -1097,7 +1097,7 @@ figcaption {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 80px;
   display: flex;
 }
@@ -2452,7 +2452,7 @@ figcaption {
   }
 
   .case-study-heading-wrapper {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
   }
 
   .project-slider-left-arrow {
