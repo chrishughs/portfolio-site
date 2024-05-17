@@ -2939,11 +2939,6 @@ figcaption {
     margin-top: 50px;
   }
 
-  .blog-section-blog-item-wrapper {
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-  }
-
   .about-heading {
     font-size: 40px;
   }
@@ -2954,10 +2949,6 @@ figcaption {
 
   .faq-question {
     font-size: 22px;
-  }
-
-  .faq-heading-wrapper {
-    text-align: center;
   }
 
   .footer-cta {
