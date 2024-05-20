@@ -2776,6 +2776,10 @@ figcaption {
   .next-project-link-wrapper, .previous-project-link-wrapper {
     padding-top: 0;
   }
+
+  .footer-link-bottom-border {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
