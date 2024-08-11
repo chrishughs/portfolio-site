@@ -3409,7 +3409,7 @@ figcaption {
     margin-bottom: 10px;
   }
 
-  .next-project-arrow-wrapper {
+  .next-project-arrow-wrapper, .previous-project-arrow-wrapper {
     width: 28px;
     height: 28px;
   }
