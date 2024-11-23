@@ -1989,6 +1989,10 @@ figcaption {
   line-height: 32px;
 }
 
+.h-captcha {
+  margin-bottom: 20px;
+}
+
 .contact-email-and-phone-wrapper {
   margin-top: 40px;
 }
