@@ -65,8 +65,11 @@
             <div class="form-email"><label for="Email" class="form-label">Email</label><input class="form-field email w-input" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" type="email" id="Email" required></div>
             <!-- <div class="form-budget"><label for="Budget" class="form-label">Budget</label><input prefix="$" class="form-field w-input" maxlength="256" name="Budget" data-name="Budget" placeholder="Budget" type="text" id="Budget"></div> -->
             <div class="form-brief"><label for="Details" class="form-label">Tell me a bit about what you&#x27;re looking for</label><textarea placeholder="Example Text" maxlength="5000" id="Details" name="Details" data-name="Details" class="form-field budget-text-area w-input" required></textarea></div>
-            <div class="h-captcha" data-captcha="true"></div>
+            <div class="h-captcha" id="h-captcha" data-captcha="true"></div>
             <input type="hidden" name="redirect" value="https://chrishughs.com/form-submit">
+            <div id="error-message" class="error-message" style="display:none;margin-top:0;padding:0;margin-bottom:20px;">
+              <div class="text-block _16px">Please confirm you're not a robot.</div>
+            </div>
             <button data-w-id="b6097d5e-4fdf-80f7-56a2-8a9799977237" type="submit" class="button w-inline-block">
               <div class="button-up">
                 <div class="button-text">Submit Now!</div>
