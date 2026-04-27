@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /reference/
+Disallow: /testimonials.html
+Disallow: /detail_projects.html
+Disallow: /detail_blog.html
+Disallow: /detail_project-role.html
+Disallow: /detail_project-tags.html
+Disallow: /blog.html
+Disallow: /401.html
+Disallow: /form-submit.html
+
+Sitemap: https://chrishughs.com/sitemap.xml

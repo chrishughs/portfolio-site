@@ -3796,3 +3796,33 @@ figcaption {
   font-style: normal;
   font-display: swap;
 }
+
+.project-detail-heading-wrapper h1 {
+  letter-spacing: 1px;
+  font-size: 54px;
+  line-height: 110%;
+}
+
+.contact-heading {
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 991px) {
+  .project-detail-heading-wrapper h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-detail-heading-wrapper h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .project-detail-heading-wrapper h1 {
+    letter-spacing: .5px;
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
