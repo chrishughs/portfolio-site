@@ -221,6 +221,10 @@ figcaption {
   padding-bottom: 0;
 }
 
+.wrapper.experience {
+  padding-bottom: 45px;
+}
+
 .wrapper.faq-heading {
   flex-direction: column;
   justify-content: center;
@@ -1002,6 +1006,15 @@ figcaption {
   position: relative;
 }
 
+.testimonial-image-container {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.testimonial-image-container img {
+  border-radius: 50%;
+}
+
 .testimonial-arrow {
   width: 54px;
   height: 54px;
@@ -1037,7 +1050,7 @@ figcaption {
 }
 
 .testimonial-name-and-position-wrapper {
-  margin-top: 115px;
+  margin-top: 25px;
 }
 
 .testimonial-container {
@@ -1069,6 +1082,11 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.testimonial-container:has(.testimonial-content + .testimonial-content) {
+  height: auto;
+  align-items: flex-start;
 }
 
 .testimonial-heading-wrapper {
@@ -2380,6 +2398,10 @@ figcaption {
     max-width: 600px;
   }
 
+  .wrapper.testimonial-down {
+    padding-top: 0;
+  }
+
   .wrapper.nav {
     padding-top: 20px;
     position: relative;
@@ -2409,7 +2431,7 @@ figcaption {
     flex-direction: column;
   }
 
-  .wrapper.about {
+  .wrapper.about, .wrapper.testimonial-headings {
     padding-top: 50px;
   }
 
@@ -2558,9 +2580,9 @@ figcaption {
     margin-top: 50px;
   }
 
-  .testimonial-name-and-position-wrapper {
+  /* .testimonial-name-and-position-wrapper {
     margin-top: 70px;
-  }
+  } */
 
   .testimonial-container {
     flex-direction: column;
@@ -2844,7 +2866,7 @@ figcaption {
 
   .wrapper.experience {
     max-width: none;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
   }
 
   .wrapper.faq-heading {
@@ -2871,6 +2893,10 @@ figcaption {
 
   .wrapper.testimonial-down, .wrapper.faq-down {
     max-width: none;
+  }
+
+  .wrapper.testimonial-down {
+    padding-bottom: 100px;
   }
 
   .wrapper.updates {
@@ -3302,6 +3328,10 @@ figcaption {
     margin-left: 0;
   }
 
+  .testimonial-image-container {
+    width: 18%;
+  }
+
   .faq-question {
     font-size: 20px;
     line-height: 120%;
@@ -3342,9 +3372,9 @@ figcaption {
     margin-top: 20px;
   }
 
-  .testimonial-name-and-position-wrapper {
+  /* .testimonial-name-and-position-wrapper {
     margin-top: 40px;
-  }
+  } */
 
   .footer-links-grid {
     width: 100%;
