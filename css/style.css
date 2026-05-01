@@ -1089,6 +1089,19 @@ figcaption {
   align-items: flex-start;
 }
 
+.testimonial-slider-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonial-slider-desktop {
+    display: none;
+  }
+  .testimonial-slider-mobile {
+    display: block;
+  }
+}
+
 .testimonial-heading-wrapper {
   margin-top: 20px;
 }
