@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /detail_blog.html
 Disallow: /blog.html
-Disallow: /401.html
 Disallow: /form-submit.html
 
 Sitemap: https://chrishughs.com/sitemap.xml
